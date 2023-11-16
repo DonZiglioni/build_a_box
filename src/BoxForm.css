@@ -1,0 +1,115 @@
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    width: 80vw;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, .25);
+    border-radius: 10px;
+    margin-bottom: 2em;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, .5),
+        -2px -2px 4px rgba(255, 255, 255, 1);
+    background-color: rgba(157, 98, 157, 0.5);
+}
+
+#color {
+    margin-left: 1em;
+    padding: 0;
+    border: none;
+    width: 3em;
+    height: 3em;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, .5),
+        -1px -1px 3px rgba(255, 255, 255, .8);
+    background-color: rgba(157, 98, 157, 0.5);
+}
+
+#color:hover {
+    background-color: rgba(216, 175, 216, 0.75);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, .5),
+        -1px -1px 2px rgba(255, 255, 255, .75);
+}
+
+#color:active {
+    box-shadow: inset 2px 2px 4px rgba(0, 0, 0, .5),
+        inset -2px -2px 2px rgba(255, 255, 255, .75);
+}
+
+.ranges {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1em;
+}
+
+.rangeH {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1.5em;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, .25);
+    width: 10em;
+    border-radius: 10px;
+}
+
+.rangeH:hover {
+    background-color: rgba(216, 175, 216, 0.75);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, .5),
+        -1px -1px 2px rgba(255, 255, 255, .75);
+}
+
+.rangeW {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1.5em;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, .25);
+    width: 10em;
+    border-radius: 10px;
+}
+
+.rangeW:hover {
+    background-color: rgba(216, 175, 216, 0.75);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, .5),
+        -1px -1px 2px rgba(255, 255, 255, .75);
+}
+
+p {
+    margin: 0;
+    font-size: .85em;
+    font-style: italic;
+}
+
+i {
+    font-size: .85em;
+}
+
+button {
+    width: 10em;
+    margin-top: 2em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    border-radius: 1em;
+    border: none;
+    background-color: rgba(66, 0, 66, 0.75);
+    color: white;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, .5),
+        -1px -1px 2px rgba(255, 255, 255, .75);
+}
+
+button:hover {
+    background-color: rgba(216, 175, 216, 0.75);
+    border: none;
+    color: rgb(0, 0, 0);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, .5),
+        -1px -1px 2px rgba(255, 255, 255, .75);
+}
+
+button:active {
+    background-color: rgba(216, 175, 216, 0.75);
+    border: none;
+    color: rgb(0, 0, 0);
+    box-shadow: inset 2px 2px 4px rgba(0, 0, 0, .5),
+        inset -2px -2px 2px rgba(255, 255, 255, .75);
+}

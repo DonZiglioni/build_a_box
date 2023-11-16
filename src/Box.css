@@ -1,0 +1,17 @@
+.box {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    padding: 10px;
+}
+
+.del-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: none;
+    height: 1.5em;
+    width: 1.5em;
+    margin: .5em;
+}
