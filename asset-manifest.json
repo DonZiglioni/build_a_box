@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/build_a_box/static/css/main.38ace815.css",
+    "main.js": "/build_a_box/static/js/main.22536005.js",
+    "index.html": "/build_a_box/index.html",
+    "main.38ace815.css.map": "/build_a_box/static/css/main.38ace815.css.map",
+    "main.22536005.js.map": "/build_a_box/static/js/main.22536005.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.38ace815.css",
+    "static/js/main.22536005.js"
+  ]
+}
